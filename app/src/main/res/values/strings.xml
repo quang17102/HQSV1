@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">HQSV</string>
+    <string name="facebook_app_id">2100467346728259</string>
+    <string name="fb_login_protocol_scheme">fb2100467346728259</string>
+
+
+    <string name="title_activity_index">Index</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_infomation">Infomation</string>
+
+    <!--Activity Info-->
+    <string name="login_with">Đăng nhập bằng</string>
+    <string name="nhuMo">Ngôi nhà ước mơ</string>
+    <string name="infomation">Thông tin cá nhân:</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="hoten">Họ và tên:</string>
+    <string name="Gtinh">Giới tính:</string>
+    <string name="Snhat">Sinh nhật:</string>
+    <string name="Sodt">Số điện thoại:</string>
+    <string name="Email">Email:</string>
+    <string name="Dchi">Địa chỉ:</string>
+    <string name="Truong">Trương/Công ty:</string>
+    <string name="Nganh">Ngành/Công việc:</string>
+    <string name="Hqsv">HQSV:</string>
+    <string name="Nthamgia">Ngày tham gia:</string>
+    <string name="Ldothamgia">Lí do tham gia:</string>
+    <string name="Nam">Nam</string>
+    <string name="Nu">Nữ</string>
+
+    <string name="tVien">Thành viên</string>
+    <string name="kHoc">Khoá học</string>
+    <string name="truong">Trường</string>
+    <string name="hBong">Học bổng</string>
+    <string name="tNguyen">Tình nguyện</string>
+    <string name="dHoc">Du học</string>
+    <string name="love">Love</string>
+    <string name="choak">Choak</string>
+    <string name="tChinh">Tài chính</string>
+
+    <string name="duHoc">DU HỌC</string>
+    <string name="hoatDong">HOẠT ĐỘNG</string>
+
+
+</resources>

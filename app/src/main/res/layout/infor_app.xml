@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoApp">
+
+
+
+    <ScrollView
+        android:id="@+id/infor_lists"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--Họ và tên-->
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    app:civ_border_width="1dp"
+                    app:civ_border_color="#63FF03"
+                    android:layout_gravity="center"
+                    android:id="@+id/avata_infor_app"
+                    android:layout_weight="5"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp">
+
+
+
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+                <TextView
+                    android:id="@+id/name_infor_app"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:text="Nguyễn Quang"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:textAllCaps="false"
+                    android:paddingHorizontal="20dp"
+                    android:textAlignment="center"
+                    android:drawableLeft="@drawable/info_app"
+                    android:background="@drawable/button_round_info_app"
+                    android:id="@+id/showinfo"
+                    android:text="@string/infomation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:textAllCaps="false"
+                    android:paddingHorizontal="20dp"
+                    android:textAlignment="center"
+                    android:drawableLeft="@drawable/sign_out"
+                    android:background="@drawable/button_round_infor_app_sign_out"
+                    android:id="@+id/btn_Logout"
+                    android:text="@string/logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>
